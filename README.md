@@ -26,7 +26,8 @@ In business logic, we take the properties as :
  
  Create a Scanner variable with which we can initialize the properties of employee with the inputs given by user while execution time.
  
- This is done by :            Scanner scan = new Scanner(System.in);
+ This is done by :          
+ 				Scanner scan = new Scanner(System.in);
  
  create method is now defined as follows : 
  
