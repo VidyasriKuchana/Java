@@ -45,3 +45,18 @@ In business logic, we take the properties as :
               
 display method is designed to display the details of employee created. That is done as follows :
 
+		void display()
+		{
+	    		System.out.println("Name : "+this.name+" \n Age : "+this.age+" \n Salary : "+this.salary+" \n Designation : "+this.job);
+		}
+
+The Raise salary method is designed in business logic in order to raise the employee's salary by 1000, it also displays that the salary raised by 1000.
+
+The syntax for this method is as follows :
+
+
+		void raiseSalary()
+		{
+		  	 this.salary=salary+1000;
+		  	 System.out.println(" Salary Raised by 1000.0");
+      	        }
