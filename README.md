@@ -31,3 +31,17 @@ In business logic, we take the properties as :
  create method is now defined as follows : 
  
  
+              void create()
+              {
+	                   System.out.println("Enter name : ");
+	                       this.name=sc.next();
+	                   System.out.println(" Enter Age : ");
+	                       this.age=sc.nextInt();
+	                   System.out.println(" Enter Salary : ");
+	                       this.salary = sc.nextDouble();
+	                   System.out.println(" Enter Designation ");
+	                       this.job= sc.next();
+            	}
+              
+display method is designed to display the details of employee created. That is done as follows :
+
