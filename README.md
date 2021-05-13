@@ -41,7 +41,7 @@ In business logic, we take the properties as :
 	                       this.salary = sc.nextDouble();
 	                   System.out.println(" Enter Designation ");
 	                       this.job= sc.next();
-            	}
+             }
               
 display method is designed to display the details of employee created. That is done as follows :
 
@@ -59,4 +59,4 @@ The syntax for this method is as follows :
 		{
 		  	 this.salary=salary+1000;
 		  	 System.out.println(" Salary Raised by 1000.0");
-      	        }
+      	      }
