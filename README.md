@@ -71,3 +71,30 @@ We design a continuous iterations using do-while loop , until the user choose th
 Here we take the help of nextInt() method of Scanner class and receive the user choice be it like 1,2,3,...
 
 Using switch-case, we perform actions accordingly with the user's choice.. The code for this is as follows :
+
+          boolean r = false;
+          do{
+	      Scanner sc=new Scanner(System.in);
+	      System.out.println("1.Create \n 2.Display \n 3.Raise Salary \n 4. Exit");
+	      int i=sc.nextInt();
+		
+		switch(i){
+			case 1 :     e.create();
+					r=true;
+                  			 break;
+			case 2 :if(r)
+				e.display();
+				else System.out.println("No Recors..!!");
+				break;
+			case 3:  if(r) 
+				e.raiseSalary();
+				else System.out.println("No Records...!!");
+				break;
+			case 4: System.out.println("Exiting...!!");
+				break;
+			default : System.out.println("No Action provided ...!!");
+	  	}
+	}while(i!=4)
+	
+Here, we applied a condition in case 2 and case 3 , this is just to let the user know that he have to create the employee first, and then he will have the access to display and raise salary. If not created any, it will display as " No Records..!!" 
+And the do-while loop breaks only if the choice opted by the user is 4 i.e., exit!!
