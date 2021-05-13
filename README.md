@@ -60,3 +60,14 @@ The syntax for this method is as follows :
 		  	 this.salary=salary+1000;
 		  	 System.out.println(" Salary Raised by 1000.0");
       	    }
+	    
+Now we create a user logic with name Main.. 
+
+In the main(String[] args) of user logic, we create an object of business logic as follows :
+
+           Emp e = new Emp();
+We design a continuous iterations using do-while loop , until the user choose the exit option.
+
+Here we take the help of nextInt() method of Scanner class and receive the user choice be it like 1,2,3,...
+
+Using switch-case, we perform actions accordingly with the user's choice.. The code for this is as follows :
