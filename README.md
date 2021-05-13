@@ -59,4 +59,4 @@ The syntax for this method is as follows :
 		  {
 		  	 this.salary=salary+1000;
 		  	 System.out.println(" Salary Raised by 1000.0");
-      	      }
+      	    }
