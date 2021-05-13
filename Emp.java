@@ -26,21 +26,29 @@ class Emp{
 class Main{
 	public static void main(String[] args){
 	Emp e= new Emp();
-	while(true){
+	boolean b=false;
+	do{
 	      Scanner sc=new Scanner(System.in);
 	      System.out.println("1.Create \n 2.Display \n 3.Raise Salary \n 4. Exit");
 	      int i=sc.nextInt();
-		if(i==4) break;
+		
 		switch(i){
 			case 1 :     e.create();
+					r=true;
                   			 break;
-			case 2 :
+			case 2 :if(r)
 				e.display();
+				else System.out.println("No Recors..!!");
 				break;
-			case 3:    e.raiseSalary();
+			case 3:  if(r) 
+				e.raiseSalary();
+				else System.out.println("No Records...!!");
 				break;
+			case 4: System.out.println("Exiting...!!");
+				break;
+			default : System.out.println("No Action provided ...!!");
 	  	}
-	}
+	}while(i!=4)
          }
 }
 
